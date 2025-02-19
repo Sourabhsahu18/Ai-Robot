@@ -67,7 +67,7 @@ const handleCommand = (command) => {
     } else if (command.includes("open youtube")) {
         speakFunction("Opening YouTube");
         setTimeout(() => {
-            window.open("https://youtu.be/3QhajVg6SjE?si=Px0fGO1wSk-Sf2j5", "_blank");
+            window.open("https://www.youtube.com/", "_blank");
         }, 1200);
     } else if (command.includes("date")) {
         let date = new Date().toLocaleString(undefined, { day: 'numeric', month: 'long' });
